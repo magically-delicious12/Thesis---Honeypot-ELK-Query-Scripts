@@ -1,2 +1,5 @@
 # Thesis---Honeypot-ELK-Query-Scripts
-A set of scripts used to query data from the T-Pot ELK stack for honeypot analysis. 
+These Python scripts were developed as part of my Thesis research to evaluate attacker behavior across multiple web application honeypot systems.
+Each honeypot was stood up using T-Pot, and each of these scripts pulls from the ElasticSearch logs and visualizes or analyzes attacker activity, flow behavior, alert diversity, and more.
+
+> Note: You must supply your own Elasticsearch credentials. These scripts should work for any T-Pot instance given the proper IP addresses
